@@ -1,12 +1,13 @@
 import React from "react";
+import styles from "../Statistics/Statistics.module.css";
 const Statistics = ({ good, neutral, bad, total, positivePercentage }) => {
   return (
     <>
       <div>
-        <h2>Statistics</h2>
+        <h2 className={styles.title}>Statistics</h2>
       </div>
       <div>
-        <ul>
+        <ul className={styles.list}>
           <li>
             <p>Good:{good}</p>
           </li>
