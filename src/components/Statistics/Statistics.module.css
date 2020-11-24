@@ -1,6 +1,5 @@
 .list {
+  display: block;
+  margin: 0 auto;
   list-style: none;
-}
-.title {
-  margin-left: 35px;
 }
